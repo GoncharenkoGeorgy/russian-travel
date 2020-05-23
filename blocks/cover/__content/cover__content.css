@@ -1,0 +1,35 @@
+.cover__content {
+  position: relative;
+}
+
+
+
+/* .cover__content {
+  position: absolute;
+  top: 50%;
+  margin-left: -280px;
+  left: 50%;
+  margin-top: -109px;
+  z-index: 3
+}
+
+.cover__content:hover:before { 
+  content: ''; 
+  position: absolute;
+   top: 0; 
+   left: 0; 
+   right: 0; 
+   bottom: 0; 
+   background: #2A2C2F;
+   opacity: 0.8; 
+  }
+
+
+@media only screen and (max-width: 760px) {
+  .cover__content {
+    min-height: 200px;
+    max-width: 288px;
+    margin-left: -144px;
+    margin-top: -67px;
+  }
+}
