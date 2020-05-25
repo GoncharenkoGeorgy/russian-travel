@@ -8,6 +8,7 @@
 }
 
 .footer__link:hover {
+  transition: 0.2s linear 0.3s;
   opacity: 0.8;
 }
 

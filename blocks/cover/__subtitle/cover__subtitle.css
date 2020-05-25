@@ -1,4 +1,6 @@
 .cover__subtitle {
+  position: relative;
+  color: white;
   margin: 0 auto;
   margin-top: 32px;
   max-width: 360px;
