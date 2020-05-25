@@ -13,9 +13,3 @@ padding: 0;
     display: block;
   }
 }
-
-@media screen and (max-width: 340px){
-  .footer__links {
-    display: block;
-  }
-}

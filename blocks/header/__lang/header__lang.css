@@ -1,17 +1,8 @@
 .header__lang {
-  position: relative;
-  min-width: 77px;
   margin: 0;
-  padding: 18px 0 6px 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  margin-right: 18px;
 }
 
-@media screen and (max-width: 340px){
-  .header__lang {
-    padding: 14px 0 4px 0;
-    min-width: 62px;
-  }
+.header__lang:last-child {
+  margin-right: 0;
 }

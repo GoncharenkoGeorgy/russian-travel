@@ -1,19 +1,84 @@
-
 .cover__background {
-  position: relative;
-  max-width: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 2;
+  position: relative; 
+  max-width: 1184px;
+  min-height: 740px;
+  background-image: url(../../../images/__background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
 }
 
+.cover__background::before { 
+  content: ''; 
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background: #2A2C2F;
+  opacity: 0.3;
+  }
 
+.cover__background:hover::before { 
+  content: ''; 
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background: #2A2C2F;
+  opacity: 0.8;
+  }
 
-
-/* .cover__background {
-  
-  position: relative;
-  width: 100%;
-  z-index: 2;
+@media only screen and (max-width: 1030px) {
+  .cover__background {
+    min-height: 640px;
+    max-width: 1024px;
+  }
 }
 
+@media only screen and (max-width: 900px) {
+  .cover__background {
+    min-height: 560px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .cover__background {
+    min-height: 480px;
+    max-width: 768px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .cover__background {
+    min-height: 410px;
+  }
+}
+
+ @media only screen and (max-width: 610px) {
+  .cover__background {
+    min-height: 380px;
+  }
+} 
+
+@media only screen and (max-width: 520px) {
+  .cover__background {
+    min-height: 320px;
+  }
+} 
+
+@media only screen and (max-width: 410px) {
+  .cover__background {
+    min-height: 255px;
+  }
+} 
+
+@media only screen and (max-width: 340px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}

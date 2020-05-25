@@ -15,11 +15,3 @@
   }
 }
 
-@media screen and (max-width: 340px){
-  .footer__link-marg {
-    margin-bottom: 32px;
-  }
-  .footer__link-marg:last-child {
-    margin: 0;
-  }
-}

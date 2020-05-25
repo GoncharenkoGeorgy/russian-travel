@@ -2,7 +2,6 @@
   position: relative;
   max-width: 159px;
   margin: 0;
-  padding-top: 8px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -13,7 +12,12 @@
 
 @media only screen and (max-width: 780px) {
   .lead__caption {
+    padding: 5px 24px 0;
+  }
+}
 
-    padding: 8px 16px 0 16px;
+@media only screen and (max-width: 340px) {
+  .lead__caption {
+    padding: 5px 16px 0;
   }
 }

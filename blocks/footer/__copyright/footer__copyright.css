@@ -16,10 +16,3 @@
   }
 }
 
-@media screen and (max-width: 340px){
-  .footer__copyright {
-    line-height: 14px;
-    text-align: left;
-    margin-top: 48px;
-  }
-}

@@ -10,9 +10,9 @@
   text-decoration-line: none;
 }
 
-.header__lang-link:focus {
-  text-decoration-line: underline;
-} 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 340px){
   .header__lang-link {

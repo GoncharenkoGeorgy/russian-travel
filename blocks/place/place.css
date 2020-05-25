@@ -24,8 +24,13 @@
 
 @media screen and (max-width: 1030px){
   .place {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 
